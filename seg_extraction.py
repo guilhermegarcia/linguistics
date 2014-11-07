@@ -3,7 +3,7 @@ This script was developed for the lexicon analysis in Garcia (2014)
 Input: a list of words *with* proper syllabification (-) and stress mark (')
 Output: segmental info for each word (qualitative and quantitative)
 
-Guilherme D. Garcia
+Guilherme D. Garcia (McGill)
 '''
 
 import csv
