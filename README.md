@@ -57,7 +57,8 @@ POS
 
 ```V```: vowel
 
-```Alt```: alternative (if final stress, Alt = penult; if penult, final; if antepenult, penult)*
+```Alt```: alternative (if final stress, Alt = penult; if penult, final; if antepenult, penult)—this is language-specific.
+
 ```n``` or ```Num```: number of segments (quantitative info)
 
 ```Syls```: syllables
@@ -67,6 +68,3 @@ POS
 ```Antepen```: antepenult syllable/position
 
 ```Final```: final syllable/position
-
-
-* This is language-specific, of course—Portuguese, in this case.
