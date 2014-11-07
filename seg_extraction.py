@@ -1,24 +1,29 @@
-# This script was developed for the lexicon analysis in Garcia (2014)
-# Guilherme D. Garcia
+''' 
+This script was developed for the lexicon analysis in Garcia (2014)
+Input: a list of words *with* proper syllabification (-) and stress mark (')
+Output: segmental info for each word (qualitative and quantitative)
+
+Guilherme D. Garcia
+'''
 
 import csv
 import re
 
 ''' 
-First, you need a specific file format. The default here
-is a comma-separated file where you have three columns per row.
-word, syllabification and part of speech. Feel free to add more 
-and adapt the script below, but remember the script requires 
-*three* columns per row. Also, this script was developed for Portuguese,
-so you will have to make some changes if you want to run other languages.
-Romance languages such as Spanish and Italian shouldn't require a lot of
-changes.
-
 This script will get a syllabified string and extract segmental information
 such as: number of segments in onset position, stressed vowel etc. Crucially,
 stress location is also extracted, based on your input file, where stress should
 be marked with a ' (à la IPA). Whatever mark you use, just make sure you change it
-below.
+below. 
+
+First, you need a specific file format. The default here
+is a comma-separated file where you have three columns per row.
+word, syllabification and part of speech. Feel free to add more 
+and adapt the script below, but remember the script currently requires 
+*three* columns per row. Also, this script was developed for Portuguese,
+so you will have to make some changes if you want to run other languages—
+Romance languages such as Spanish and Italian shouldn't require a lot of
+changes.
 
 If you have monosyllables in your lexicon, please add a (redundant) stress mark.
 
@@ -26,7 +31,7 @@ Many thanks to Prof. Morgan Sonderegger (McGill), who was incredibly helpful.
 '''
 
 
-# Open a file.
+# Open a file comma-separated file
 f = open("...", 'rU')
 
 # Define output file:
