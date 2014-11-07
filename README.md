@@ -2,3 +2,65 @@ Linguistics
 ===========
 
 Scripts and linguistic data
+
+The python script for segmental extraction does what it says: given a lexicon comprised of words and their respective syllabification patterns, it extracts segmental information and created a new csv file where you can cheack qualitative and quantitative info on the lexicon.
+
+Example:
+```{python}
+word, syllabification, part of speech
+
+cabeça, ka-'be-sa, noun
+casa, 'ka-za, noun
+átomo, 'a-to-mo, noun
+caro, 'ka-ro, adj
+```
+
+Information in the output (columns):
+
+```{python}
+word
+pronunciation
+nSyls
+stressSylNum
+stressLoc
+nOnsetConsAntepen
+nCodaConsAntepen
+onsetConsAntepen
+codaConsAntepen
+VAntepen
+nOnsetConsPen
+nCodaConsPen
+onsetConsPen
+codaConsPen
+VPen
+nOnsetConsFinal
+nCodaConsFinal
+onsetConsFinal
+codaConsFinal
+VFinal
+nOnsetConsStressed
+nCodaConsStressed
+onsetConsStressed
+codaConsStressed
+VStressed
+nOnsetConsAlt
+nCodaConsAlt
+onsetConsAlt
+codaConsAlt
+VAlt
+POS
+```
+
+## Helper:
+
+```Cons```: consonant
+```V```: vowel
+```Alt```: alternative (if final stress, Alt = penult; if penult, final; if antepenult, penult)[^1]
+```n```: number of segments (quantitative info)
+```Syls```: syllables
+```Pen```: penult syllable/position
+```Antepen```: antepenult syllable/position
+```Final```: final syllable/position
+
+
+[^1]: This is language-specific, of course—Portuguese, in this case.
