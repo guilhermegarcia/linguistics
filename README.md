@@ -51,7 +51,7 @@ VAlt
 POS
 ```
 
-## Helper:
+### Helper:
 
 ```Cons```: consonant
 
