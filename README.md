@@ -3,7 +3,7 @@ Linguistics
 
 Scripts and linguistic data
 
-The python script for segmental extraction does what it says: given a lexicon comprised of words and their respective syllabification patterns, it extracts segmental information and created a new csv file where you can cheack qualitative and quantitative info on the lexicon.
+The python script for segmental extraction does what it says: given a lexicon comprised of words and their respective syllabification patterns, it extracts segmental information and creates a new csv file where you can cheack qualitative and quantitative info on the lexicon.
 
 Example:
 ```
