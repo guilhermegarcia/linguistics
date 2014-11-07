@@ -1,4 +1,4 @@
-linguistics
+Linguistics
 ===========
 
 Scripts and linguistic data
