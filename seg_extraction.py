@@ -135,7 +135,7 @@ for l in f:
     # make sure there's exactly 1 stressed syll. Only primary stress is dealt with here.
     assert len(stressedSyls) == 1, stressedSyls
 
-    # which syllable (number) is stressed: final, penult, or antepenult?
+    # which syllable (number) is stressed
     stressSylNum = stressedSyls[0][0] + 1
 
     ## get info for last 3 syllables (all NA if word doesn't have this syllable)
