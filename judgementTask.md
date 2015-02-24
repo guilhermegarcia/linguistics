@@ -1,7 +1,7 @@
 ### Judgement/perception task on Praat
 
 
-This was an experiment I developed for a [https://www.dropbox.com/s/57wtimqjvwzambw/OCP.pdf?dl=0](study) on neoclassical elements (with [http://www.nataliaguzzo.wordpress.com](Natália B. Guzzo), presented at OCP 12, 2015).
+This was an experiment I developed for a [study](https://www.dropbox.com/s/57wtimqjvwzambw/OCP.pdf?dl=0) on neoclassical elements (with [Natália B. Guzzo](http://www.nataliaguzzo.wordpress.com), presented at OCP 12, 2015).
 Basically, speakers hear a word and rate it on a 10-point scale. An 'OK' button was added so that accidental ratings wouldn't occur.
 This script also allows subjects to press 'space' and hear the stimulus again (2 repetitions max). Since all participants were
 Portuguese speakers, the instructions are in Portuguese, but the structure should be fairly straightforward.
