@@ -1,6 +1,12 @@
 # Word profiles
 
-This very simples script takes a string and returns its CV template. You can pre-specify the inventory (the example below also contains glides).
+This very simple function ```profile()``` takes a string and returns its CV template. You can pre-specify the inventory (the example below also contains glides). For example:
+
+```profile("bakaton")``` returns ```CVCVCVC```    
+
+```profile("ba-ka-ton")``` returns ```CV.CV.CVC```   
+
+Thus, you need to provide the syllabification in the input if you want it in the output.
 
 
 ```{Python}
