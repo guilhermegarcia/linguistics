@@ -1,6 +1,8 @@
 # Word profiles
 
-This very simple function ```profile()``` takes a string and returns its CV template. You can pre-specify the inventory (the example below also contains glides). For example:
+This very simple function ```profile()``` takes a string and returns its CV template. You can pre-specify the inventory (the example below also contains glides). 
+
+## Example
 
 ```profile("bakaton")``` returns ```CVCVCVC```    
 
